@@ -1,6 +1,6 @@
 Rusber New Run Level Control Subsystem : 
 
-Unlike standard Run level control subsystem on must of Linux distribution , rusber RLCS ( Run Level Control Subsystem ) i much different , for long i believe that /etc/rc.[123456].d and creating Symbolic links start with S or K is kind of not easily Administrative without Other Application to configure it ( like sysvconfig ) simply getting some system under Debian its kind of faulty to disable some service on bootstrapping and its easily possible to make mistakes which are not harmful most of the times but time consuming . 
+Unlike standard Run level control subsystem on must of Linux distribution , rusber RLCS ( Run Level Control Subsystem ) is much different , for long i believe that /etc/rc.[123456].d and creating Symbolic links start with S or K is kind of not easily Administrative without Other Application to configure it ( like sysvconfig ) simply getting some system under Debian its kind of faulty to disable some service on bootstrapping and its easily possible to make mistakes which are not harmful most of the times but time consuming . 
 
 the idea is that to have Plain text file under /etc , named rlcs.conf , file format is look like :
 
