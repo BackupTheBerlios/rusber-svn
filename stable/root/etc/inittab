@@ -1,4 +1,4 @@
-::sysinit:/etc/rc.d/rc.S
+::sysinit:/etc/rc.d/rcls
 ::respawn:-/bin/sh
 tty0::askfirst:-/bin/sh
 vc/2::askfirst:-/bin/sh
